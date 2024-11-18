@@ -1,0 +1,16 @@
+.odontograma {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Espaciado entre las filas */
+}
+
+.fila {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px; /* Espaciado entre dientes */
+}
+
+.fila .diente {
+  flex: 1;
+  max-width: 50px; /* Puedes ajustar el tamaño máximo de cada "Diente" */
+}
